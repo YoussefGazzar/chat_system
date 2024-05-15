@@ -28,6 +28,18 @@ To run this application locally, make sure you have Docker and Docker Compose in
 
 This will build the necessary Docker images and start the containers. You can access the API at `http://localhost:3000`.
 
+## Seed Data
+
+This project comes with pre-seeded data in the database to provide you with a starting point for testing and development.
+
+## Postman Collection
+
+A Postman collection is included in this repository to help you interact with the API endpoints. To get started:
+
+1. Export the Postman collection from the directory.
+2. Import it into your Postman workspace.
+3. Update the parameters accordingly and start testing the endpoints.
+
 ## Endpoints
 
 | HTTP Verb | Path                                                                                   | Description                                                         | Parameters                           |
