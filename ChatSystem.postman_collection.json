@@ -56,7 +56,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/",
+					"raw": "http://localhost:3000/applications/LTREyiBCEW8JyXqBG5VECr7RtuYqoqduBZHS/chats/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -64,7 +64,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"LTREyiBCEW8JyXqBG5VECr7RtuYqoqduBZHS",
 						"chats",
 						""
 					]
@@ -78,7 +78,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1",
+					"raw": "http://localhost:3000/applications/xeoSnKkvhf4Nevux5BgFmoiNR1JSCWcBJaDr/chats/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -86,7 +86,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"xeoSnKkvhf4Nevux5BgFmoiNR1JSCWcBJaDr",
 						"chats",
 						"1"
 					]
@@ -100,7 +100,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+					"raw": "http://localhost:3000/applications/xeoSnKkvhf4Nevux5BgFmoiNR1JSCWcBJaDr",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -108,7 +108,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN"
+						"xeoSnKkvhf4Nevux5BgFmoiNR1JSCWcBJaDr"
 					]
 				}
 			},
@@ -120,7 +120,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/messages",
+					"raw": "http://localhost:3000/applications/m9UL8uBm1pvmCCw9m38HiNe6ribfBMQrpV7u/chats/1/messages",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -128,7 +128,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"m9UL8uBm1pvmCCw9m38HiNe6ribfBMQrpV7u",
 						"chats",
 						"1",
 						"messages"
@@ -143,7 +143,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/messages/1",
+					"raw": "http://localhost:3000/applications/m9UL8uBm1pvmCCw9m38HiNe6ribfBMQrpV7u/chats/1/messages/12",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -151,23 +151,23 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"m9UL8uBm1pvmCCw9m38HiNe6ribfBMQrpV7u",
 						"chats",
 						"1",
 						"messages",
-						"1"
+						"12"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Search Message",
+			"name": "Search Messages",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/search?query=youssef",
+					"raw": "http://localhost:3000/applications/obBLZZfrqVFjn9w1TBiottLJk2q2rDBHDqW4/chats/1/search?query=odd",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -175,7 +175,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"obBLZZfrqVFjn9w1TBiottLJk2q2rDBHDqW4",
 						"chats",
 						"1",
 						"search"
@@ -183,7 +183,7 @@
 					"query": [
 						{
 							"key": "query",
-							"value": "youssef"
+							"value": "odd"
 						}
 					]
 				}
@@ -196,7 +196,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/",
+					"raw": "http://localhost:3000/applications/LTREyiBCEW8JyXqBG5VECr7RtuYqoqduBZHS/chats/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -204,7 +204,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"LTREyiBCEW8JyXqBG5VECr7RtuYqoqduBZHS",
 						"chats",
 						""
 					]
@@ -218,7 +218,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/messages?message[body]=Youssef",
+					"raw": "http://localhost:3000/applications/m9UL8uBm1pvmCCw9m38HiNe6ribfBMQrpV7u/chats/1/messages?message[body]=creating a new message",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -226,7 +226,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"m9UL8uBm1pvmCCw9m38HiNe6ribfBMQrpV7u",
 						"chats",
 						"1",
 						"messages"
@@ -234,7 +234,7 @@
 					"query": [
 						{
 							"key": "message[body]",
-							"value": "Youssef"
+							"value": "creating a new message"
 						}
 					]
 				}
@@ -247,7 +247,7 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/messages/1?message[body]=YES, I'M YOUSSEF!!",
+					"raw": "http://localhost:3000/applications/xeoSnKkvhf4Nevux5BgFmoiNR1JSCWcBJaDr/chats/1/messages/1?message[body]=new message",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -255,7 +255,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"xeoSnKkvhf4Nevux5BgFmoiNR1JSCWcBJaDr",
 						"chats",
 						"1",
 						"messages",
@@ -264,7 +264,7 @@
 					"query": [
 						{
 							"key": "message[body]",
-							"value": "YES, I'M YOUSSEF!!"
+							"value": "new message"
 						}
 					]
 				}
@@ -277,7 +277,7 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/?application[name]=Instabug v2.0",
+					"raw": "http://localhost:3000/applications/xeoSnKkvhf4Nevux5BgFmoiNR1JSCWcBJaDr/?application[name]=Instabug v2.0",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -285,7 +285,7 @@
 					"port": "3000",
 					"path": [
 						"applications",
-						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"xeoSnKkvhf4Nevux5BgFmoiNR1JSCWcBJaDr",
 						""
 					],
 					"query": [
