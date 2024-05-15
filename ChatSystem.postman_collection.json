@@ -1,0 +1,302 @@
+{
+	"info": {
+		"_postman_id": "74b0de97-e0b7-476e-9f98-89e24da7afd5",
+		"name": "Chat System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21226281"
+	},
+	"item": [
+		{
+			"name": "Get Applications",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Application",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications?application[name]=Instabug",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications"
+					],
+					"query": [
+						{
+							"key": "application[name]",
+							"value": "Instabug"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"chats",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"chats",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Application",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Messages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/messages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"chats",
+						"1",
+						"messages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Message",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/messages/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"chats",
+						"1",
+						"messages",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Message",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/search?query=youssef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"chats",
+						"1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "youssef"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Chat",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"chats",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/messages?message[body]=Youssef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"chats",
+						"1",
+						"messages"
+					],
+					"query": [
+						{
+							"key": "message[body]",
+							"value": "Youssef"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Message",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/chats/1/messages/1?message[body]=YES, I'M YOUSSEF!!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						"chats",
+						"1",
+						"messages",
+						"1"
+					],
+					"query": [
+						{
+							"key": "message[body]",
+							"value": "YES, I'M YOUSSEF!!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Application",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/applications/hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN/?application[name]=Instabug v2.0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"applications",
+						"hAKcNDaUFiSTApadP54Zm7R2JcYNwBJEM4RN",
+						""
+					],
+					"query": [
+						{
+							"key": "application[name]",
+							"value": "Instabug v2.0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
