@@ -20,7 +20,7 @@ This repository contains a Dockerized API built with Ruby on Rails for managing 
 
 ## Setup Instructions
 
-To run this application locally, make sure you have Docker and Docker Compose installed on your machine. Then follow these steps:
+To run this application locally, make sure you have `Docker` and `Docker Compose` installed on your machine. Then follow these steps:
 
 1. **Clone Repository**: `git clone https://github.com/YoussefGazzar/chat_system.git`
 2. **Navigate to Project Directory**: `cd chat_system`
